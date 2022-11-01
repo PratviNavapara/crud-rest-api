@@ -1,0 +1,74 @@
+/*# sourceMappingURL=style.css.map */
+@mixin flex-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+@mixin border-design {
+  border: 1px solid #351305;
+}
+@mixin display-data {
+  width: 50%;
+  margin: auto;
+}
+
+$primary-color: #a3d6c6;
+$text-color: rgb(67, 19, 19);
+
+.main-container {
+  @include flex-container;
+}
+
+button {
+  @include flex-container;
+  @include border-design;
+  color: $text-color;
+  background-color: orange;
+  border-radius: 25%;
+  font-size: large;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.action-btn {
+  cursor: pointer;
+}
+h1 {
+  color: $text-color;
+}
+input {
+  border-radius: 20%;
+  width: max-content;
+  height: fit-content;
+}
+
+form {
+  width: 50%;
+  height: 250px;
+  background-color: $primary-color;
+  color: $text-color;
+  margin-bottom: 20px;
+  @include flex-container;
+  @include border-design;
+}
+table {
+  @include display-data;
+}
+
+thead {
+  background-color: $primary-color;
+}
+th {
+  color: $text-color;
+}
+td,
+th {
+  text-align: left;
+  padding: 17px;
+  color: $text-color;
+  @include border-design;
+}

@@ -1,0 +1,75 @@
+/*# sourceMappingURL=style.css.map */
+.main-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid #351305;
+  color: rgb(67, 19, 19);
+  background-color: orange;
+  border-radius: 25%;
+  font-size: large;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.action-btn {
+  cursor: pointer;
+}
+
+h1 {
+  color: rgb(67, 19, 19);
+}
+
+input {
+  border-radius: 20%;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+form {
+  width: 50%;
+  height: 250px;
+  background-color: #a3d6c6;
+  color: rgb(67, 19, 19);
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid #351305;
+}
+
+table {
+  width: 50%;
+  margin: auto;
+}
+
+thead {
+  background-color: #a3d6c6;
+}
+
+th {
+  color: rgb(67, 19, 19);
+}
+
+td,
+th {
+  text-align: left;
+  padding: 17px;
+  color: rgb(67, 19, 19);
+  border: 1px solid #351305;
+}/*# sourceMappingURL=style.css.map */
